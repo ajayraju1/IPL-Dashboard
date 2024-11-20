@@ -1,0 +1,78 @@
+.latest-match-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+}
+
+.team-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+  padding-bottom: 0;
+}
+
+.team-match-text-con {
+  width: 60%;
+}
+
+.team-match-name {
+  font-size: 20px;
+}
+
+.team-match-date {
+  font-size: 18px;
+}
+
+.team-match-venue-result {
+  font-size: 12px;
+}
+
+.team-match-logo {
+  width: 20%;
+}
+
+.hr-line {
+  border: #475569 solid 1px;
+}
+
+.match-data-text-con {
+  padding: 20px 15px;
+}
+
+.match-data-sub-heading {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.match-data-response {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-match-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  .team-logo-container {
+    width: 66%;
+  }
+
+  .hr-line {
+    display: none;
+  }
+
+  .team-match-name {
+    font-size: 25px;
+  }
+  .team-match-date {
+    font-size: 22px;
+  }
+
+  .team-match-logo {
+    width: 200px;
+    height: 200px;
+  }
+}
